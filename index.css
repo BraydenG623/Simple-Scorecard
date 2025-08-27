@@ -9,13 +9,34 @@ body {
 
 }
 
+
+.resetBut{
+    border: 0.5px solid, white;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 3px;
+    border-color: #FFFFFF;
+    width: 150;
+    height: 50;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.resetBut:hover {
+    background-color: #ff4d4f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 .container {
     display: flex;
     justify-content: space-around;
-    max-width: 600px;
-    width: 100%;    
+    align-items: center;
+  
+    /* grows with screen, but never beyond 1200px */
     margin: 0 auto;
-}
+    width: 100%;
+    max-width: 600;
+  }
+  
 
 h3 {
     color: #FFFFFF;
@@ -49,7 +70,11 @@ h3 {
     height: 75px;
     max-width: 300px;
     font-family: 'Cursed Timer ULiL', monospace;
+
+
 }
+  
+
 
 
 button {
